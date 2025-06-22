@@ -14,7 +14,7 @@ python honeypot_simulator.py --target 127.0.0.1 --intensity high --duration 60
 Open an another termianl
 ### 3. Analyze Logs
 ```bash
-python analyze_logs.py honeypot_logs/honeypot_YYYYMMDD.json
+python analyze_logs.py honeypot_logs/filename.json
 ```
 ## 🧠 Risk Scoring & Severity
  Risk is calculated from attempts, port & payload diversity, and duration.
