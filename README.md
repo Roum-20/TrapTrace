@@ -12,6 +12,10 @@ This project is a powerful honeypot attack analyzer and dashboard built using **
 - 🧪 Built-in attack simulation 
 - 📤 Export results as CSV or PDF
 ## 🚀 Getting Started
+### 1. Install Python Dependencies
+```bash
+pip install -r requirements.txt
+```
 ### 2. Start the Honeypot
 ```bash
 python honeypot.py
