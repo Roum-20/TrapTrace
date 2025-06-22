@@ -7,7 +7,7 @@ It is a Python-based honeypot system with attacker simulation, behavioral log an
 python honeypot.py
 ```
 Open another terminal
-### 2. Simulate Attacks
+### 2. Simulate Attacks(optional)
 ```bash
 python honeypot_simulator.py --target 127.0.0.1 --intensity high --duration 60
 ```
