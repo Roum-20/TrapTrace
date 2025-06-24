@@ -6,7 +6,7 @@ import plotly.express as px
 from pathlib import Path
 from fpdf import FPDF
 
-st.set_page_config(page_title="Honeypot Dashboard", layout="wide")
+st.set_page_config(page_title="TrapTrace", layout="wide")
 st.title("🛡️ Honeypot Graphical Attack Dashboard")
 
 LOG_DIR = Path("honeypot_logs")
